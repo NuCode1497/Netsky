@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Netsky_Engine.Game1" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gISQEkIeWwAAG4EpCAAESEAQFACMIg0ECSEiQRGABAw=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.Global" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FQWEH3MXNtRMkYcI0zSUiAggMEwnEBkRLh8EeGiGQJY=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.BlindList" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\BlindList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.Block" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GUI\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.Crosshairs" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\Crosshairs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.GameCursor" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAgICAAAAAAgAAgAAAAAAAEAAAAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\Cursor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.Frame" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEACAAAAggAISoAAAAAAAAAAAAIAAAAAAACICQ=</HashCode>
+      <FileName>GUI\Frame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.GhostObject" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAABE=</HashCode>
+      <FileName>GUI\GhostObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.ByLayer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>GUI\ListOfScreenObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Netsky_Engine.ListOfScreenObjects" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAEAAAAAgAAhAAAAAYBAAAgAAAAAAAAAEAAABAABQ=</HashCode>
+      <FileName>GUI\ListOfScreenObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Netsky_Engine.Particle" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgADAAAAAAAAQAAAAACAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\Particle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.Player" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAEAAAAAgAAAAAAAAAAAAAQAAAAQAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.PoolOfParticles" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAABAIAAQ=</HashCode>
+      <FileName>GUI\PoolOfParticles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.PoolOfScreenObjects" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQDAgAAAAAAAAAAAAAAAiAEAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\PoolOfScreenObjects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.ScreenObject" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CLSAkAAALAAAggJoiAcIOeCCKxQAAYSkAWbBBgBEAr8=</HashCode>
+      <FileName>GUI\ScreenObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Netsky_Engine.SpriteObject" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAQEAQQIAAAgAAABUQAAAAIAAAAgAAECBQAggAAxc=</HashCode>
+      <FileName>GUI\SpriteObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.TextObject" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYgAAAAAAAAAgBAABAAAAAAAAAAEAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>GUI\TextObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World2D" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BGYAQAAEC4x0wgkCEACABIEMBQAAAkQAAABAIQyIABc=</HashCode>
+      <FileName>GUI\World2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.Program" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.AmbientLight" Collapsed="true">
+    <Position X="5.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>World\AmbientLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.Arrow" Collapsed="true">
+    <Position X="0.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAEAAAiAAAAgAAAAAAAAIAAAAAAACAAAAAAAAAAIQ=</HashCode>
+      <FileName>World\Arrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.Ball" Collapsed="true">
+    <Position X="25.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAgBAAAAAAAAAAAAAAEAAQAABAQAAAAQ=</HashCode>
+      <FileName>World\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.BlindList3D" Collapsed="true">
+    <Position X="14.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\BlindList3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.Camera" Collapsed="true">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBQCQEHQCAAEQgAAAAABA0gAAABoAEBBBQAAAkCIEI8=</HashCode>
+      <FileName>World\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.DirectedObject" Collapsed="true">
+    <Position X="5.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAKAAAAkAEAAAAAAEBBAACAKAkAAAAAQAAAAAgQAQ=</HashCode>
+      <FileName>World\DirectedObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.DrawnObject3D" Collapsed="true">
+    <Position X="23.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAJAgAAAAAAgAAAAAAAAAEAACAAAAAAAAQ=</HashCode>
+      <FileName>World\DrawnObject3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.ExplicitObject" Collapsed="true">
+    <Position X="18.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAABAAAAAAAAAAAAAAAAJAQAAAAACAAAAgAAAQ=</HashCode>
+      <FileName>World\ExplicitObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.GenericModelObject" Collapsed="true">
+    <Position X="23.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>World\GenericModelObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.GreenTiles" Collapsed="true">
+    <Position X="18.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAIAAAAAAAAAAAAgAABQ=</HashCode>
+      <FileName>World\GreenTiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.Light" Collapsed="true">
+    <Position X="6.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAACAAAAAAAAACACABAAgAAAAAAQ=</HashCode>
+      <FileName>World\Light.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.LightDirectional" Collapsed="true">
+    <Position X="9.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>World\LightDirectional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.ListOfObject3Ds" Collapsed="true">
+    <Position X="14.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACYAEAAAAAgBAhAAAAAIBAAAgAAAEAAAAAAAAABAABQ=</HashCode>
+      <FileName>World\ListOfObject3Ds.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Netsky_Engine.World.Map" Collapsed="true">
+    <Position X="30" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAAAgAAQFAAAAAAAgAAAAAAAAAAAAAQAAQ=</HashCode>
+      <FileName>World\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.ModelObject" Collapsed="true">
+    <Position X="24.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAABAAAAAACAAAAAIAAQ=</HashCode>
+      <FileName>World\ModelObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.Object3D" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QoSCkQAIKAIBogJoiIKIOKDCCQAZCYQkAESAAEBEAj4=</HashCode>
+      <FileName>World\Object3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Netsky_Engine.World.Orbiter" Collapsed="true">
+    <Position X="27.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAABIAAAgBAAAAAAAAAEEAAAAAAAAAAAAAgAAQ=</HashCode>
+      <FileName>World\Orbiter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.Orientaid" Collapsed="true">
+    <Position X="16.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAAAAAAAAAIBAAAAAAAAACAACAAAAAAY=</HashCode>
+      <FileName>World\Orientaid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Netsky_Engine.World.PointLight" Collapsed="true">
+    <Position X="3" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQAAAAQAAAAQ=</HashCode>
+      <FileName>World\PointLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.QuadRenderComponent" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAEAAAAAQAAAAABAAAAAAAAA=</HashCode>
+      <FileName>World\QuadRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.SkyBox" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAIAAABEgEAAAAAAAAAAAAAAAgAAAgAAAAAAAQ=</HashCode>
+      <FileName>World\SkyBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.SpotLight" Collapsed="true">
+    <Position X="7.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgACAAAAAAgAIAAAAAAAAAAAAQAAAAQ=</HashCode>
+      <FileName>World\SpotLight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Netsky_Engine.World.World3D" Collapsed="true">
+    <Position X="12" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYBMBoEygiwAoAAgAAChkSICBDBEAAAAEAGgBAImEY=</HashCode>
+      <FileName>World\World3D.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="Netsky_Engine.Material" Collapsed="true">
+    <Position X="34.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACBAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Netsky_Engine.Attenuation" Collapsed="true">
+    <Position X="32.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Netsky_Engine.VertexPositionTangentTexture" Collapsed="true">
+    <Position X="36" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAAAACAIAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Netsky_Engine.GameObject" Collapsed="true">
+    <Position X="32.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Netsky_Engine.World.Overlay" Collapsed="true">
+    <Position X="34.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>World\Overlay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
